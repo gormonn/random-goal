@@ -1,6 +1,7 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import { styled } from "@linaria/react";
+import { SurpriseBox } from "features/surprise-box";
 
 const TestDiv = styled.div`
   background: red;
@@ -8,7 +9,7 @@ const TestDiv = styled.div`
 `;
 
 const IndexPage: React.FC<PageProps> = () => {
-  return <></>;
+  return <SurpriseBox />;
 };
 
 export default IndexPage;

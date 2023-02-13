@@ -16,6 +16,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.8",
     "@linaria/core": "^4.2.6",
     "@linaria/react": "^4.3.4",
     "effector": "^22.5.0",
